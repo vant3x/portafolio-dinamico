@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Alevante</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Oswald:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+    <main class="container">
+        <header class="header">
+            <div class="logo">
+                <h1>Alevante Molinary</h1>
+                <p>Frontend Developer</p>
+            </div>
+            <form action="">
+                <input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar">
+            </form>
+            <div class="categorias" id="categorias">
+                <a href="#" class="activo filtros">Todos</a>
+                <a href="#" class="filtros">Naturaleza</a>
+                <a href="#" class="filtros">Ciudades</a>
+                <a href="#" class="filtros">Personas</a>
+                <a href="#" class="filtros">Animales</a>
+                <a href="" class="dark-theme-btn" id="btn-dark">Dark</a>
+            </div>
+        </header>
+
+        <section class="grid" id="grid">
+
+            <div class="item" 
+                data-categoria="ciudades" 
+                data-etiquetas="ciudades autos carros calles"
+                data-descripcion="1. Ciudad con autos"
+            >
+                <div class="item-contenido">
+                    <img src="./img/ciudad1.png" alt="">
+                </div>
+            </div>
+
+                      
+            <div class="item" 
+                data-categoria="personas" 
+                data-etiquetas="persona mujer"
+                data-descripcion="1. Ciudad con autos"
+            >
+                <div class="item-contenido">
+                    <img src="./img/persona1.png" alt="">
+                </div>
+            </div>
+
+                      
+            <div class="item" 
+                data-categoria="animales" 
+                data-etiquetas="animales leon animal felino lion"
+                data-descripcion="1. León"
+            >
+                <div class="item-contenido">
+                    <img src="./img/animal1.png" alt="">
+                </div>
+            </div>
+
+
+            <div class="item" 
+                data-categoria="naturaleza" 
+                data-etiquetas="naturaleza paisaje montañas mar"
+                data-descripcion="1. Paisaje"
+            >
+                <div class="item-contenido">
+                    <img src="./img/paisaje1.png" alt="">
+                </div>
+            </div>
+
+            <div class="item" 
+                data-categoria="naturaleza" 
+                data-etiquetas="paisaje naturaleza ojas verdes"
+                data-descripcion="2. Naturaleza"
+            >
+                <div class="item-contenido">
+                    <img src="./img/naturaleza1.png" alt="">
+                </div>
+            </div>
+
+
+            <div class="item" 
+                data-categoria="ciudades" 
+                data-etiquetas="ciudad edificios mar puente"
+                data-descripcion="1. Ciudad con muchos edificios"
+            >
+                <div class="item-contenido">
+                    <img src="./img/ciudad2.png" alt="">
+                </div>
+            </div>
+
+            <div class="item" 
+                data-categoria="personas" 
+                data-etiquetas="persona mujer peliroja retrato"
+                data-descripcion="1. Mujer"
+            >
+                <div class="item-contenido">
+                    <img src="./img/persona2.png" alt="">
+                </div>
+            </div>
+
+            <div class="item" 
+                data-categoria="naturaleza" 
+                data-etiquetas="ciudad edificios mar puente"
+                data-descripcion="1. Ciudad con muchos edificios"
+            >
+            <div class="item-contenido">
+                <img src="./img/paisaje2.png" alt="">
+            </div>
+            </div>
+
+            <div class="item" 
+                data-categoria="animales" 
+                data-etiquetas="animales animal panda oso oso-panda"
+                data-descripcion="1. Panda"
+            >
+            <div class="item-contenido">
+                <img src="./img/animal2.png" alt="">
+            </div>
+            </div>    
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
+    <script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
+    <script src="src/js/main.js"></script>
+</body>
+</html>
